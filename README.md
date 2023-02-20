@@ -5,7 +5,7 @@ This repository provides both the data and the code of the submitted paper, enti
 
 The workflow of the data collecting processed is shown in the Figure 1.
 
-![Figure 1 Data processing workflow](https://github.com/carriechen/Global_Science_Academies/blob/images/workflow.png)
+![Figure 1 Data processing workflow](https://github.com/carriechen/Global_Science_Academies/blob/main/images/workflow.png)
 
 
 ## The data
