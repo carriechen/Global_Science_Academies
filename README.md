@@ -34,13 +34,22 @@ The schema of the data is described in Figure 2
 
 ### Wikipedia
 
+```python
+import wikipedia
+
+>>> wikipedia.search("Polish Academy of Sciences")
+```
+
 ### Navigation menu
+
+The implemention of webmenu ```webmenu.py```,  use anchor tags like “#nav”, and “#menu” to find the navigation menu content.
 
 ### Sitemap
 
-```python
-s = "Python syntax highlighting"
-print s
+The sitemap of each science academy is implemented by using the Python package [python-sitemap](https://github.com/c4software/python-sitemap).
+
+```bash
+python main.py --domain http://akad.gov.al/ash/ --output sitemap_akad.xml -n 4  --debug
 ```
 ## Data usage
 The global science academies dataset is intended to inspire the use of studies on the organizational behavior of science academies, promote studies on how to bridge the gap between different science academies, and how science academies can play an even greater role in national development and international cooperation. 
