@@ -30,9 +30,9 @@ The schema of the data is described in Figure 2
 │   ├── academiesciencesmoralesetpolitiques.fr.json
 │   ...
 └── sitemaps
-    ├── sitemap_aaas.txt
+    ├── sitemap_abc.xml
     ├── sitemap_aal.xml
-    ├── sitemap_aasciences.txt
+    ├── sitemap_amacad.xml
     ...
 ```
 ## The code
